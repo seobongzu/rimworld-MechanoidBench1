@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LanguageData>
+		<MechanoidTech.label>机械族工作台</MechanoidTech.label>
+		<MechanoidTech.description>建造机械族工作台的先决条件。</MechanoidTech.description>
+		<CentipedeAnalysis.label>机械蜈蚣分析</CentipedeAnalysis.label>
+		<CentipedeAnalysis.description>分析机械蜈蚣以强化装甲。</CentipedeAnalysis.description>
+		<ScytherAnalysis.label>机械飞螳分析</ScytherAnalysis.label>
+		<ScytherAnalysis.description>分析机械飞螳以强化长剑。</ScytherAnalysis.description>
+		<LancerAnalysis.label>机械静螳分析</LancerAnalysis.label>
+		<LancerAnalysis.description>分析机械静螳以强化狙击步枪。</LancerAnalysis.description>
+		<PikemanAnalysis.label>机械蝎蝽分析</PikemanAnalysis.label>
+		<PikemanAnalysis.description>分析机械蝎蝽以强化速射机枪。</PikemanAnalysis.description>
+	</LanguageData>

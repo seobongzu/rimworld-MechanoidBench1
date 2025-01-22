@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_MechaArmor.label>메카 강화갑옷 제작</Make_MechaArmor.label>
+  <Make_MechaArmor.description>메카 강화갑옷을 제작합니다.</Make_MechaArmor.description>
+  <Make_MechaArmor.jobString>메카 강화갑옷 제작중</Make_MechaArmor.jobString>
+
+  <Make_MechaHelmet.label>메카 강화장갑 방탄모 제작</Make_MechaHelmet.label>
+  <Make_MechaHelmet.description>메카 강화장갑 방탄모를 제작합니다.</Make_MechaHelmet.description>
+  <Make_MechaHelmet.jobString>메카 강화장갑 방탄모 제작중</Make_MechaHelmet.jobString>
+
+  <Make_MechaSniperRifle.label>메카 저격소총 제작</Make_MechaSniperRifle.label>
+  <Make_MechaSniperRifle.description>메카 저격소총을 제작합니다.</Make_MechaSniperRifle.description>
+  <Make_MechaSniperRifle.jobString>메카 저격소총 제작중</Make_MechaSniperRifle.jobString>
+
+  <Make_MechaMinigun.label>메카 미니건 제작</Make_MechaMinigun.label>
+  <Make_MechaMinigun.description>메카 미니건을 제작합니다.</Make_MechaMinigun.description>
+  <Make_MechaMinigun.jobString>메카 미니건 제작중</Make_MechaMinigun.jobString>
+
+  <Make_MechaLongSword.label>메카 장검 제작</Make_MechaLongSword.label>
+  <Make_MechaLongSword.description>메카 장검을 제작합니다.</Make_MechaLongSword.description>
+  <Make_MechaLongSword.jobString>메카 장검 제작중</Make_MechaLongSword.jobString>
+
+
+</LanguageData>

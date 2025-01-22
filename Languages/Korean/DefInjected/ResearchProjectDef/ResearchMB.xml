@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MechanoidTech.label>메카노이드 작업대</MechanoidTech.label>
+  <MechanoidTech.description>메카노이드 작업대를 제작하기 위해 필요한 연구 과제입니다.</MechanoidTech.description>
+
+  <CentipedeAnalysis.label>센터피드 분석</CentipedeAnalysis.label>
+  <CentipedeAnalysis.description>센터피드의 잔해를 이용해 강화갑옷을 개량할 수 있습니다.</CentipedeAnalysis.description>
+
+  <LancerAnalysis.label>랜서 분석</LancerAnalysis.label>
+  <LancerAnalysis.description>랜서의 잔해를 이용해 저격소총을 개량할 수 있습니다.</LancerAnalysis.description>
+
+  <ScytherAnalysis.label>사이더 분석</ScytherAnalysis.label>
+  <ScytherAnalysis.description>사이더의 잔해를 이용해 장검을 개량할 수 있습니다.</ScytherAnalysis.description>
+
+  <PikemanAnalysis.label>파이크맨 분석</PikemanAnalysis.label>
+  <PikemanAnalysis.description>파이크맨의 잔해를 이용해 미니건을 개량할 수 있습니다.</PikemanAnalysis.description>
+
+</LanguageData>

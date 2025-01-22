@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+  <MechaSniperRifle.label>메카 저격소총</MechaSniperRifle.label>
+  <MechaSniperRifle.description>랜서의 잔해에서 얻은 부품으로 개량한 저격소총입니다.</MechaSniperRifle.description>
+  
+  <MechaMinigun.label>메카 미니건</MechaMinigun.label>
+  <MechaMinigun.description>파이크맨의 잔해에서 얻은 부품으로 개량한 미니건입니다.</MechaMinigun.description>
+
+  <MechaLongSword.label>메카 장검</MechaLongSword.label>
+  <MechaLongSword.description>사이더의 잔해에서 얻은 부품으로 개량한 장검입니다.</MechaLongSword.description>
+
+</LanguageData>

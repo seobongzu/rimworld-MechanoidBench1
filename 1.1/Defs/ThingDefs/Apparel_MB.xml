@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <thingDef Name="MBApparelMakeableBase" ParentName="ApparelMakeableBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </thingDef>
+
+  <thingDef Name="MBArmorHelmetMakeableBase" ParentName="MBApparelMakeableBase" Abstract="True">
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+  </thingDef>
+
+  <thingDef ParentName="MBApparelMakeableBase">
+    <defName>MechaArmor</defName>
+    <label>mecha armor</label>
+    <description>Armor enhanced by analyzing Centipede. The overall performance has been enhanced.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData> <texPath>Things/Apparel/MechaArmor</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+	
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>CentipedeAnalysis</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>MechanoidBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+	  <Apparel_PowerArmor>1</Apparel_PowerArmor>
+	  <Corpse_Mech_Centipede>1</Corpse_Mech_Centipede>
+	  <ComponentSpacer>5</ComponentSpacer>
+	  <Plasteel>100</Plasteel>
+	  <Uranium>50</Uranium>
+	  
+    </costList>
+    <statBases>
+      <Mass>11</Mass>
+     <WorkToMake>70000</WorkToMake>
+      <MaxHitPoints>340</MaxHitPoints>
+      <ArmorRating_Blunt>0.61</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.21</ArmorRating_Sharp>
+      <ArmorRating_Heat>1.10</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>35</Insulation_Heat>
+      <EquipDelay>14</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.1</PainShockThreshold>
+	</equippedStatOffsets>
+      <generateCommonality>0.01</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+		<li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/MechaArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>SpacerMilitary</li>
+        <li>RoyalCombatGear</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+  </thingDef>
+
+  <thingDef ParentName="MBArmorHelmetMakeableBase">
+    <defName>MechaHelmet</defName>
+    <label>mecha helmet</label>
+    <description>Helmet enhanced by analyzing Centipede. The overall performance has been enhanced.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData> <texPath>Things/Apparel/MechaArmorrHelmet</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <statBases>
+      <Mass>2.1</Mass>
+     <WorkToMake>30000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <ArmorRating_Blunt>0.52</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.21</ArmorRating_Sharp>
+      <ArmorRating_Heat>1.11</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.1</PainShockThreshold>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>CentipedeAnalysis</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>MechanoidBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+	  <Apparel_PowerArmorHelmet>1</Apparel_PowerArmorHelmet>
+	  <Corpse_Mech_Centipede>1</Corpse_Mech_Centipede>
+	  <ComponentSpacer>2</ComponentSpacer>
+	  <Plasteel>50</Plasteel>
+	  <Uranium>10</Uranium>
+    </costList>
+      <generateCommonality>0.1</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/MechaArmorrHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>SpacerMilitary</li>
+        <li>RoyalCombatGear</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </thingDef>
+
+</Defs>

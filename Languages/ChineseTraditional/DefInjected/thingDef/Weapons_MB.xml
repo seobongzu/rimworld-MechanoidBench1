@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LanguageData>
+		<Bullet_ChargeLance.label>標槍子彈</Bullet_ChargeLance.label>
+		<MechaMinigun.label>機械族速射機槍</MechaMinigun.label>
+		<MechaMinigun.description>一把用機械族強化的速射機槍。</MechaMinigun.description>
+		<MechaMinigun.tools.0.label>槍管</MechaMinigun.tools.0.label>
+		<MechaLongSword.label>機械族長劍</MechaLongSword.label>
+		<MechaLongSword.description>一把用機械族強化的長劍。</MechaLongSword.description>
+		<MechaLongSword.tools.0.label>劍柄</MechaLongSword.tools.0.label>
+		<MechaLongSword.tools.1.label>劍尖</MechaLongSword.tools.1.label>
+		<MechaLongSword.tools.2.label>劍刃</MechaLongSword.tools.2.label>
+	</LanguageData>
